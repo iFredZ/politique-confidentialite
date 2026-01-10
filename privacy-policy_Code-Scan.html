@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -20,67 +20,64 @@
       font-size: 0.95em;
       color: #444;
     }
+    .update {
+      color: #666;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
   <h1>Politique de confidentialit&eacute; - Code Scan</h1>
-  <p>Date d&apos;effet: 2026-01-05</p>
+  <p class="update">Date de mise &agrave; jour: 10 Janvier 2026 (v0.1.1)</p>
 
   <h2>R&eacute;sum&eacute;</h2>
   <ul>
     <li>Pas de compte utilisateur.</li>
     <li>Traitement local sur l&apos;appareil pour le scan.</li>
     <li>Donn&eacute;es stock&eacute;es localement: historique, favoris, notes, pr&eacute;f&eacute;rences.</li>
-    <li>Pas de serveur, pas de collecte publicitaire.</li>
+    <li>Pas de serveur d&apos;application, pas de collecte publicitaire.</li>
+    <li>Analyse de produits via services tiers (Open Food Facts).</li>
     <li>Partage uniquement si vous l&apos;initiez (partage Android ou envoi vers PC via Bluetooth).</li>
   </ul>
 
   <h2>Donn&eacute;es trait&eacute;es</h2>
   <ul>
-    <li>Cam&eacute;ra: le flux vid&eacute;o est utilis&eacute; pour d&eacute;tecter les codes-barres. Les images ne sont pas stock&eacute;es ni envoy&eacute;es.</li>
-    <li>Historique de scan: codes, type, date/heure, notes, favoris.</li>
-    <li>Bluetooth (PC Link): nom de l&apos;appareil, statut de connexion; les codes sont envoy&eacute;s au PC comme saisie clavier.</li>
-    <li>Presse-papiers: copie du code lorsque vous utilisez la fonction de copie.</li>
+    <li><strong>Cam&eacute;ra</strong>: le flux vid&eacute;o est utilis&eacute; pour d&eacute;tecter les codes-barres. Les images ne sont ni stock&eacute;es ni envoy&eacute;es &agrave; des serveurs tiers.</li>
+    <li><strong>Historique de scan</strong>: codes, type, date/heure, notes, favoris et projet assign&eacute;.</li>
+    <li><strong>Donn&eacute;es Sensibles</strong>: si vous scannez des codes contenant des mots de passe WiFi, des fiches de contact ou des coordonn&eacute;es GPS, ces informations sont stock&eacute;es localement dans votre historique pour votre seul usage.</li>
+    <li><strong>Bluetooth (PC Link)</strong>: nom de l&apos;appareil et statut de connexion; les codes sont envoy&eacute;s au PC connect&eacute; comme une saisie clavier (HID).</li>
+    <li><strong>Presse-papiers</strong>: copie automatique ou manuelle du code selon vos pr&eacute;f&eacute;rences.</li>
   </ul>
 
-  <h2>Utilisation des donn&eacute;es</h2>
+  <h2>Services Tiers</h2>
   <ul>
-    <li>Scanner des codes-barres et afficher le r&eacute;sultat.</li>
-    <li>G&eacute;rer l&apos;historique, les favoris et les notes.</li>
-    <li>Envoyer un code vers un PC via Bluetooth (mode douchette).</li>
+    <li><strong>Analyse de produits</strong>: pour les codes EAN/UPC (alimentaire/cosm&eacute;tique), l&apos;application interroge les bases de donn&eacute;es publiques <strong>Open Food Facts</strong> et <strong>Open Beauty Facts</strong>. Seul le num&eacute;ro du code-barres est transmis. Aucune donn&eacute;e personnelle n&apos;est partag&eacute;e.</li>
+    <li><strong>Biblioth&egrave;que ML Kit (Google)</strong>: utilis&eacute;e pour la reconnaissance des codes-barres. Le traitement est effectu&eacute; localement sur l&apos;appareil.</li>
   </ul>
 
-  <h2>Partage et services tiers</h2>
-  <ul>
-    <li>Aucune vente de donn&eacute;es et pas de publicit&eacute;.</li>
-    <li>Pas de serveur d&apos;application: les donn&eacute;es restent sur l&apos;appareil.</li>
-    <li>Biblioth&egrave;que ML Kit (Google) utilis&eacute;e pour la lecture des codes-barres, avec traitement local sur l&apos;appareil.</li>
-    <li>Le partage ne se fait que si vous l&apos;initiez (intent Android, envoi Bluetooth).</li>
-  </ul>
-
-  <h2>Stockage et s&eacute;curit&eacute;</h2>
+  <h2>Stockage, S&eacute;curit&eacute; et Suppression</h2>
   <p>
-    Les donn&eacute;es sont stock&eacute;es localement sur l&apos;appareil. Vous pouvez supprimer
-    l&apos;historique depuis l&apos;application. Si la sauvegarde Android est activ&eacute;e,
-    certaines donn&eacute;es peuvent &ecirc;tre sauvegard&eacute;es par le syst&egrave;me.
+    Toutes les donn&eacute;es sont stock&eacute;es <strong>exclusivement localement</strong> sur votre appareil. L&apos;application d&eacute;sactive explicitement la sauvegarde automatique dans le cloud (Android Backup) pour garantir qu&apos;aucune information sensible (mots de passe WiFi, etc.) ne quitte votre appareil.
+  </p>
+  <p>
+    Vous pouvez supprimer l&apos;historique complet ou des &eacute;l&eacute;ments individuels &agrave; tout moment depuis les param&egrave;tres de l&apos;application.
   </p>
 
   <h2>Permissions</h2>
   <ul>
-    <li>Cam&eacute;ra: n&eacute;cessaire pour scanner.</li>
-    <li>Bluetooth: n&eacute;cessaire pour le mode PC Link.</li>
-    <li>Vibration: retour haptique lors de la validation d&apos;un scan.</li>
+    <li><strong>Cam&eacute;ra</strong>: indispensable pour scanner les codes.</li>
+    <li><strong>Bluetooth</strong>: n&eacute;cessaire pour le mode PC Link (douchette Bluetooth).</li>
+    <li><strong>Vibration</strong>: retour haptique optionnel lors de la validation d&apos;un scan.</li>
   </ul>
 
   <h2>Enfants</h2>
   <p>
-    L&apos;application n&apos;est pas con&ccedil;ue pour les enfants de moins de 13 ans
-    et ne collecte pas sciemment de donn&eacute;es d&apos;enfants.
+    L&apos;application n&apos;est pas con&ccedil;ue pour les enfants de moins de 13 ans et ne collecte pas sciemment de donn&eacute;es d&apos;enfants.
   </p>
 
   <h2>Contact</h2>
   <p>
-    Pour toute question: <strong>finjalrac@gmail.com</strong>
+    Pour toute question concernant la confidentialit&eacute;: <strong>finjalrac@gmail.com</strong>
   </p>
 </body>
 </html>
