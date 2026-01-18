@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Vault - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #202124;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .contact {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        a {
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏠 Home Vault - Privacy Policy</h1>
+    <p class="last-updated">Last updated: January 18, 2026</p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> Home Vault stores all your data locally on your device. We do not collect, transmit, or have access to any of your personal information. Your data stays on YOUR device.
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>Home Vault ("we", "our", or "the app") is a home inventory and family management application. We are committed to protecting your privacy. This Privacy Policy explains how we handle your information.</p>
+
+    <h2>2. Data Collection</h2>
+    <p><strong>We do NOT collect any personal data.</strong></p>
+    <p>Home Vault is designed with privacy as a core principle:</p>
+    <ul>
+        <li>All data is stored <strong>locally on your device only</strong></li>
+        <li>We have <strong>no servers</strong> that receive your data</li>
+        <li>We have <strong>no analytics</strong> or tracking</li>
+        <li>We do <strong>not</strong> collect usage statistics</li>
+        <li>We do <strong>not</strong> use third-party analytics services</li>
+    </ul>
+
+    <h2>3. Data Storage</h2>
+    <p>All information you enter into Home Vault (inventory items, access codes, family information, documents, photos) is:</p>
+    <ul>
+        <li>Stored exclusively on your device</li>
+        <li>Encrypted using AES-256 encryption</li>
+        <li>Never transmitted over the internet</li>
+        <li>Never accessible to us or any third party</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>When you choose to share your data with family members (via export file), this is done:</p>
+    <ul>
+        <li>Directly between devices you control</li>
+        <li>Using encrypted files that only you can decrypt</li>
+        <li>Without passing through any external server</li>
+    </ul>
+    <p>We never share, sell, or rent your personal information to third parties because we simply do not have access to it.</p>
+
+    <h2>5. Permissions</h2>
+    <p>Home Vault may request the following Android permissions:</p>
+    <ul>
+        <li><strong>Camera:</strong> To take photos of your items (optional)</li>
+        <li><strong>Storage:</strong> To save and export your data files</li>
+        <li><strong>Biometric:</strong> To secure app access with fingerprint/face unlock</li>
+    </ul>
+    <p>These permissions are used solely for the described functionality and never for data collection.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Home Vault does not knowingly collect any information from anyone, including children under 13 years of age, as we do not collect any personal data at all.</p>
+
+    <h2>7. Data Security</h2>
+    <p>Your data is protected by:</p>
+    <ul>
+        <li>AES-256 encryption (industry standard)</li>
+        <li>Optional biometric authentication</li>
+        <li>Local-only storage (no cloud exposure)</li>
+    </ul>
+
+    <h2>8. Your Rights</h2>
+    <p>Since all data is stored locally on your device, you have complete control:</p>
+    <ul>
+        <li><strong>Access:</strong> View all your data anytime within the app</li>
+        <li><strong>Export:</strong> Export your data at any time</li>
+        <li><strong>Delete:</strong> Delete any or all data from the app settings</li>
+        <li><strong>Uninstall:</strong> Uninstalling the app removes all associated data</li>
+    </ul>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+
+    <h2>10. Contact Us</h2>
+    <div class="contact">
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:finjalrac+homevault@gmail.com">iFredZ</a></p>
+        <p><strong>Developer:</strong> Music Music</p>
+    </div>
+
+</body>
+</html>
